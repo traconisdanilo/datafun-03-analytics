@@ -134,15 +134,15 @@ git pull
 In the same VS Code terminal, run any Python source files:
 
 ```shell
-uv run python src/datafun_03_analytics/app_case.py
-uv run python src/datafun_03_analytics/app_yourname.py
+uv run python src/datafun_03_analytics/app_danilotraconis.py
+uv run python src/datafun_03_analytics/app_danilotraconis.py
 ```
 
 OR: Run them as modules (preferred):
 
 ```shell
-uv run python -m datafun_03_analytics.app_case
-uv run python -m datafun_03_analytics.app_yourname
+uv run python -m datafun_03_analytics.app_danilotraconis
+uv run python -m datafun_03_analytics.app_danilotraconis
 ```
 
 For more see: [Running Python Reliably](https://denisecase.github.io/pro-analytics-02/06-python/running-python/).
@@ -190,19 +190,19 @@ Additional details and troubleshooting are available in the [Pro-Analytics-02 Do
 
 Open [mkdocs.yaml](./mkdocs.yaml).
 This file configures the associated project documentation website (powered by MkDocs)
-Use CTRL+f to find each occurrence of the source GitHub account (e.g. `denisecase`).
+Use CTRL+f to find each occurrence of the source GitHub account (e.g. `danilotraconis`).
 Change each occurrence to point to your GitHub account instead (spacing and capitalization MUST match the URL of your GitHub account **exactly**.)
 
 ### Project Task 2. Personalize Your Python File
 
-1. Rename `app_yourname.py` to reflect your name or alias.
+1. Rename `app_danilotraconis.py` to reflect your name or alias.
 
 - Find the file the file in the VS Code Explorer window (top icon on the left).
 - Right-click / Rename.
 - Follow conventions: name Python files in lower_snake_case, words joined with underscores, and using `.py` extension.
 
 2. Edit this README.md file to change the run command to call your file instead.
-   Use CTRL+f to search for `app_yourname.py` and replace all occurrences exactly.
+   Use CTRL+f to search for `app_danilotraconis.py` and replace all occurrences exactly.
 3. Preview this README.md to make sure it still appears correctly.
    - Find README.md in the VS Code Explorer window (top icon on the left)
    - Right-click / Preview
@@ -250,7 +250,7 @@ Press `Ctrl+c` (both keys together) or `Ctrl+Z` then `Enter` on Windows.
 
 ## Citation
 
-[CITATION.cff](./CITATION.cff) - TODO: update author and repository fields to reflect your creative work
+[CITATION.cff](./CITATION.cff) -: update author and repository fields to reflect your creative work
 
 <!--
 WHY: Support correct citation and attribution.
