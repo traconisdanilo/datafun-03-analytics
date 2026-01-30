@@ -1,4 +1,0 @@
-Holiday counts by type:
-- cultural: 1
-- public: 2
-- religious: 2
