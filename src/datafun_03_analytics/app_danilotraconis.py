@@ -44,6 +44,8 @@ from datafun_toolkit.logger import get_logger, log_header
 
 # === IMPORT LOCAL MODULE FUNCTIONS ===
 # REQ: imports from other modules in this project must use full package path
+from datafun_03_analytics.danilotraconis_csv_pipeline import run_pipeline
+
 # TODO: create and import your own data pipeline module here. See the example code.
 
 
@@ -66,7 +68,7 @@ def main() -> None:
     log_header(LOG, "Pipelines: Read, Process, Verify, Write (ETVL)")
     LOG.info("START main()")
 
-    # TODO: call your imported data pipeline that reads from data/raw and writes to data/processed.
+    run_pipeline()
 
     LOG.info("END main()")
 

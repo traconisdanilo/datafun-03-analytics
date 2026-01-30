@@ -120,3 +120,40 @@
 2026-01-29 00:20:58 | INFO | P03 | github_actions=False
 2026-01-29 00:20:58 | INFO | P03 | START main()
 2026-01-29 00:20:58 | INFO | P03 | END main()
+2026-01-29 22:33:39 | INFO | P03 | EXTRACT: reading C:\Repos\datafun-03-analytics\data\raw\danilo_holidays.csv
+2026-01-29 22:33:39 | INFO | P03 | TRANSFORM: rows=5
+2026-01-29 22:33:39 | INFO | P03 | LOAD: writing C:\Repos\datafun-03-analytics\data\processed\danilotraconis_holiday_summary.txt
+2026-01-29 22:33:39 | INFO | P03 | PIPELINE DONE
+2026-01-29 22:41:35 | INFO | P03 | === RUN START ===
+2026-01-29 22:41:35 | INFO | P03 | project=Pipelines: Read, Process, Verify, Write (ETVL)
+2026-01-29 22:41:35 | INFO | P03 | repo_dir=datafun-03-analytics
+2026-01-29 22:41:35 | INFO | P03 | python=3.14.2
+2026-01-29 22:41:35 | INFO | P03 | os=Windows 11
+2026-01-29 22:41:35 | INFO | P03 | shell=powershell
+2026-01-29 22:41:35 | INFO | P03 | cwd=.
+2026-01-29 22:41:35 | INFO | P03 | github_actions=False
+2026-01-29 22:41:35 | INFO | P03 | START main()
+2026-01-29 22:41:35 | INFO | P03 | END main()
+2026-01-29 22:42:35 | INFO | P03 | === RUN START ===
+2026-01-29 22:42:35 | INFO | P03 | project=Pipelines: Read, Process, Verify, Write (ETVL)
+2026-01-29 22:42:35 | INFO | P03 | repo_dir=datafun-03-analytics
+2026-01-29 22:42:35 | INFO | P03 | python=3.14.2
+2026-01-29 22:42:35 | INFO | P03 | os=Windows 11
+2026-01-29 22:42:35 | INFO | P03 | shell=powershell
+2026-01-29 22:42:35 | INFO | P03 | cwd=.
+2026-01-29 22:42:35 | INFO | P03 | github_actions=False
+2026-01-29 22:42:35 | INFO | P03 | START main()
+2026-01-29 22:47:38 | INFO | P03 | === RUN START ===
+2026-01-29 22:47:38 | INFO | P03 | project=Pipelines: Read, Process, Verify, Write (ETVL)
+2026-01-29 22:47:38 | INFO | P03 | repo_dir=datafun-03-analytics
+2026-01-29 22:47:38 | INFO | P03 | python=3.14.2
+2026-01-29 22:47:38 | INFO | P03 | os=Windows 11
+2026-01-29 22:47:38 | INFO | P03 | shell=powershell
+2026-01-29 22:47:38 | INFO | P03 | cwd=.
+2026-01-29 22:47:38 | INFO | P03 | github_actions=False
+2026-01-29 22:47:38 | INFO | P03 | START main()
+2026-01-29 22:47:38 | INFO | P03 | EXTRACT: reading C:\Repos\datafun-03-analytics\data\raw\danilo_holidays.csv
+2026-01-29 22:47:38 | INFO | P03 | TRANSFORM: rows=5
+2026-01-29 22:47:38 | INFO | P03 | LOAD: writing C:\Repos\datafun-03-analytics\data\processed\danilotraconis_holiday_summary.txt
+2026-01-29 22:47:38 | INFO | P03 | PIPELINE DONE
+2026-01-29 22:47:38 | INFO | P03 | END main()
