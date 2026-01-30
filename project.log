@@ -185,3 +185,39 @@
 2026-01-29 23:32:22 | INFO | P03 | LOAD: writing C:\Repos\datafun-03-analytics\data\processed\danilotraconis_holiday_summary.txt
 2026-01-29 23:32:22 | INFO | P03 | PIPELINE DONE
 2026-01-29 23:32:22 | INFO | P03 | END main()
+2026-01-30 00:22:51 | INFO | P03 | === RUN START ===
+2026-01-30 00:22:51 | INFO | P03 | project=Pipelines: Read, Process, Verify, Write (ETVL)
+2026-01-30 00:22:51 | INFO | P03 | repo_dir=datafun-03-analytics
+2026-01-30 00:22:51 | INFO | P03 | python=3.14.2
+2026-01-30 00:22:51 | INFO | P03 | os=Windows 11
+2026-01-30 00:22:51 | INFO | P03 | shell=powershell
+2026-01-30 00:22:51 | INFO | P03 | cwd=.
+2026-01-30 00:22:51 | INFO | P03 | github_actions=False
+2026-01-30 00:22:51 | INFO | P03 | START main()
+2026-01-30 00:22:51 | INFO | P03 | EXTRACT: reading C:\Repos\datafun-03-analytics\data\raw\danilo_holidays.csv
+2026-01-30 00:22:51 | INFO | P03 | TRANSFORM: rows=5
+2026-01-30 00:22:51 | INFO | P03 | LOAD: writing C:\Repos\datafun-03-analytics\data\processed\danilotraconis_holiday_summary.txt
+2026-01-30 00:22:51 | INFO | P03 | PIPELINE DONE
+2026-01-30 00:22:51 | INFO | P03 | END main()
+2026-01-30 00:49:48 | INFO | P03 | CSV (texts_by_age): START
+2026-01-30 00:49:48 | INFO | P03 | EXTRACT: reading C:\Repos\datafun-03-analytics\data\raw\texts_by_age.csv
+2026-01-30 00:49:48 | INFO | P03 | TRANSFORM: rows=16
+2026-01-30 00:49:48 | INFO | P03 | LOAD: writing C:\Repos\datafun-03-analytics\data\processed\danilotraconis_texts_by_age_stats.txt
+2026-01-30 00:49:48 | INFO | P03 | CSV (texts_by_age): wrote C:\Repos\datafun-03-analytics\data\processed\danilotraconis_texts_by_age_stats.txt
+2026-01-30 00:49:48 | INFO | P03 | CSV (texts_by_age): END
+2026-01-30 00:54:23 | INFO | P03 | === RUN START ===
+2026-01-30 00:54:23 | INFO | P03 | project=Pipelines: Read, Process, Verify, Write (ETVL)
+2026-01-30 00:54:23 | INFO | P03 | repo_dir=datafun-03-analytics
+2026-01-30 00:54:23 | INFO | P03 | python=3.14.2
+2026-01-30 00:54:23 | INFO | P03 | os=Windows 11
+2026-01-30 00:54:23 | INFO | P03 | shell=powershell
+2026-01-30 00:54:23 | INFO | P03 | cwd=.
+2026-01-30 00:54:23 | INFO | P03 | github_actions=False
+2026-01-30 00:54:23 | INFO | P03 | START main()
+2026-01-30 00:54:23 | INFO | P03 | CSV (texts_by_age): START
+2026-01-30 00:54:23 | INFO | P03 | EXTRACT: reading C:\Repos\datafun-03-analytics\data\raw\texts_by_age.csv
+2026-01-30 00:54:23 | INFO | P03 | TRANSFORM: rows=16
+2026-01-30 00:54:23 | INFO | P03 | LOAD: writing C:\Repos\datafun-03-analytics\data\processed\danilotraconis_texts_by_age_stats.txt
+2026-01-30 00:54:23 | INFO | P03 | CSV (texts_by_age): wrote C:\Repos\datafun-03-analytics\data\processed\danilotraconis_texts_by_age_stats.txt
+2026-01-30 00:54:23 | INFO | P03 | CSV (texts_by_age): END
+2026-01-30 00:54:23 | INFO | P03 | END main()

@@ -1,0 +1,44 @@
+Texts Sent Per Day Statistics (by Age Group)
+------------------------------------------------
+
+Age Group: 13-17
+Count: 3
+Minimum: 95.00
+Maximum: 140.00
+Mean: 118.33
+Standard Deviation: 22.55
+
+Age Group: 18-24
+Count: 3
+Minimum: 65.00
+Maximum: 110.00
+Mean: 85.00
+Standard Deviation: 22.91
+
+Age Group: 25-34
+Count: 3
+Minimum: 45.00
+Maximum: 60.00
+Mean: 53.33
+Standard Deviation: 7.64
+
+Age Group: 35-44
+Count: 3
+Minimum: 30.00
+Maximum: 40.00
+Mean: 35.00
+Standard Deviation: 5.00
+
+Age Group: 45-54
+Count: 2
+Minimum: 20.00
+Maximum: 25.00
+Mean: 22.50
+Standard Deviation: 3.54
+
+Age Group: 55+
+Count: 2
+Minimum: 10.00
+Maximum: 15.00
+Mean: 12.50
+Standard Deviation: 3.54
