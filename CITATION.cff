@@ -16,13 +16,13 @@ version: "0.9.0"
 date-released: "2026-01-21"
 
 authors:
-  - family-names: Case
-    given-names: Denise M.
+  - family-names: Traconis
+    given-names: Danilo
     orcid: "https://orcid.org/0000-0001-6165-7389"
     affiliation: "Northwest Missouri State University, School of Computer Science and Information Systems, Maryville, MO, USA"
 
-repository-code: "https://github.com/denisecase/datafun-03-analytics"
-url: "https://github.com/denisecase/datafun-03-analytics"
+repository-code: "https://github.com/traconisdanilo/datafun-03-analytics"
+url: "https://github.com/traconisdanilo/datafun-03-analytics"
 license: MIT
 
 abstract: >
