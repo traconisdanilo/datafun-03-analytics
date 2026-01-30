@@ -1,7 +1,5 @@
 """app_danilotraconis.py - Project script.
 
-TODO: Replace "yourname" in the filename with your actual name or alias.
-
 # Data source chosen: CSV
 
 Author: Danilo Traconis
@@ -18,9 +16,7 @@ Practice key Python skills:
 
 OBS:
   This is your file to practice and customize.
-  Find the TODO comments, and as you complete each task, remove the TODO note.
 """
-
 
 # === DECLARE IMPORTS (BRING IN FREE CODE) ===
 
@@ -35,9 +31,6 @@ from datafun_toolkit.logger import get_logger, log_header
 # === IMPORT LOCAL MODULE FUNCTIONS ===
 # REQ: imports from other modules in this project must use full package path
 from datafun_03_analytics.danilotraconis_csv_pipeline import run_pipeline
-
-# TODO: create and import your own data pipeline module here. See the example code.
-
 
 # === CONFIGURE LOGGER ONCE PER MODULE ===
 
