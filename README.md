@@ -211,13 +211,6 @@ Change each occurrence to point to your GitHub account instead (spacing and capi
 
 ### Project Task 3. Implement Your Python File
 
-1. Read the example code carefully **before** starting.
-2. Open your file. Search for "TODO" items. VS Code has icons down the left. Use either TODO Tree (tree, at the bottom) or Search (second from top).
-3. Complete each TODO carefully, one at a time.
-4. After implementing a TODO, paste your run command in the terminal and hit Enter to re-run it.
-5. When it runs without errors, delete the associated TODO command.
-6. Keep working through each TODO.
-7. When you finish, there should be **zero TODO occurrences** in your project.
 
 **Save often**: After making any useful progress, follow the steps to git add-commit-push.
 

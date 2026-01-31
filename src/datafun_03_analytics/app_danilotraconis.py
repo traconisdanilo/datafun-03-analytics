@@ -20,17 +20,18 @@ OBS:
 
 # === DECLARE IMPORTS (BRING IN FREE CODE) ===
 
-# Imports from the Python standard library (free stuff that comes with Python).
 import logging
 from pathlib import Path
 from typing import Final
 
-# REQ: imports from external packages must be listed in pyproject.toml dependencies
 from datafun_toolkit.logger import get_logger, log_header
 
 # === IMPORT LOCAL MODULE FUNCTIONS ===
 # REQ: imports from other modules in this project must use full package path
 from datafun_03_analytics.danilotraconis_csv_pipeline import run_pipeline
+from datafun_03_analytics.danilotraconis_happiness_csv_pipeline import (
+    run_happiness_pipeline,
+)
 
 # === CONFIGURE LOGGER ONCE PER MODULE ===
 
@@ -43,20 +44,24 @@ DATA_DIR: Final[Path] = ROOT_DIR / "data"
 RAW_DIR: Final[Path] = DATA_DIR / "raw"
 PROCESSED_DIR: Final[Path] = DATA_DIR / "processed"
 
-# === DEFINE THE MAIN FUNCTION THAT WILL CALL OUR FUNCTIONS ===
-
 
 def main() -> None:
-    """Entry point: run four simple ETVL pipelines."""
+    """Entry point: run CSV ETVL pipelines."""
     log_header(LOG, "Pipelines: Read, Process, Verify, Write (ETVL)")
     LOG.info("START main()")
 
+    # CSV pipeline: texts by age
     run_pipeline()
+
+    # CSV pipeline: 2020 happiness ladder scores
+    run_happiness_pipeline(
+        raw_dir=RAW_DIR,
+        processed_dir=PROCESSED_DIR,
+        logger=LOG,
+    )
 
     LOG.info("END main()")
 
-
-# === CONDITIONAL EXECUTION GUARD ===
 
 if __name__ == "__main__":
     main()
