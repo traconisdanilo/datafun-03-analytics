@@ -1,7 +1,0 @@
-CSV Ladder Score Statistics (2020 World Happiness Report)
----------------------------------------------------------
-Count: 153
-Minimum: 2.57
-Maximum: 7.81
-Mean: 5.47
-Standard Deviation: 1.11
